@@ -17,9 +17,16 @@ class Skynet
   end
 
   def announce
-    puts 'Skynet has gone live'
+    puts 'Skynet has gone live!!'
   end
 end
 
-skynet = Skynet.new(%w(Erie Chicago Pittsburgh Buffalo Tampa))
+skynet = Skynet.new([
+  'Erie',
+  'Chicago',
+  'Pittsburgh',
+  'Buffalo',
+  'New York City',
+  'Tampa'
+])
 skynet.attack
