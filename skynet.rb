@@ -21,5 +21,12 @@ class Skynet
   end
 end
 
-skynet = Skynet.new(['Erie', 'Chicago', 'Pittsburgh', 'Buffalo'])
+skynet = Skynet.new([
+  'Erie',
+  'Chicago',
+  'Pittsburgh',
+  'Buffalo',
+  'New York City'
+])
+
 skynet.attack
